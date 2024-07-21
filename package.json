@@ -1,0 +1,20 @@
+{
+  "name": "curatd.me-client-cli",
+  "version": "0.1.0",
+  "description": "Curatd.me Client CLI",
+  "main": "src/cli.js",
+  "repository": "git@github.com:dayflowerio/curatd.me-client-cli.git",
+  "author": "Jacob Joseph <jacob@dayflower.io>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "@inquirer/prompts": "^5.2.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.4.5",
+    "ora": "^8.0.1"
+  },
+  "devDependencies": {
+    "semver": "^7.6.3"
+  }
+}
