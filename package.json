@@ -2,8 +2,14 @@
   "name": "curatd.me-client-cli",
   "version": "0.1.0",
   "description": "Curatd.me Client CLI",
-  "main": "src/cli.js",
-  "repository": "git@github.com:dayflowerio/curatd.me-client-cli.git",
+  "main": "src/command.js",
+  "bin": {
+    "curatd": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dayflowerio/curatd.me-client-cli.git"
+  },
   "author": "Jacob Joseph <jacob@dayflower.io>",
   "license": "MIT",
   "private": false,
